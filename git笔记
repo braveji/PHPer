@@ -16,9 +16,14 @@ git remote show remote_name
 
 //git 新建分支
 一 创建新的分支
-git branch branch_name       或者 git checkout branch_name -b
+git branch branch_name       或者 git checkout -b branch_name
 二 切换分支
 git checkout branch_name
 三 基本合并
-git merge
+git merge  branch_name
+四 删除分支
+git branch -d branch_name
+五 服务器上配置Git 生成SSH公钥
+
+
 
