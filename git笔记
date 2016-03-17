@@ -1,0 +1,14 @@
+git 基础
+一 获取项目git仓库   两种方式  1从当前目录初始化   2从现有仓库克隆 git clone
+二 记录更新到仓库     
+步骤1 检查当前文件状态   git status  
+步骤2 跟踪新文件   git add file_name
+步骤3 暂存已修改文件    git add  filename
+步骤4 提交更新    got commit -m "最近更新的笔记"
+三 从远程仓库抓取数据
+git pull 
+git fetch
+四 推送数据到远程仓库
+git push  
+五 查看远程仓库信息
+git remote show remote_name
