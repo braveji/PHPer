@@ -1,4 +1,4 @@
-git 基础
+//git 基础
 一 获取项目git仓库   两种方式  1从当前目录初始化   2从现有仓库克隆 git clone
 二 记录更新到仓库     
 步骤1 检查当前文件状态   git status  
@@ -12,3 +12,13 @@ git fetch
 git push  
 五 查看远程仓库信息
 git remote show remote_name
+
+
+//git 新建分支
+一 创建新的分支
+git branch branch_name       或者 git checkout branch_name -b
+二 切换分支
+git checkout branch_name
+三 基本合并
+git merge
+
