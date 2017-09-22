@@ -7,7 +7,7 @@ function changedToUnderlineKey(&$arr){
 
     foreach ($arr as $k => &$v){
         $kk = str_replace("-", "_", $k);
-        changedToUnderline($v);
+        changedToUnderlineKey($v);
         if($kk != $k ){
             unset($arr[$k]);
             $arr[$kk]=$v;
